@@ -2,6 +2,10 @@
 
 A fast, privacy-first JSON formatter, validator & compare tool. Format, minify, diff JSON with inline highlights. No data leaves your browser.
 
+**Live:** [https://jsonformatter-918.pages.dev](https://jsonformatter-918.pages.dev)
+
+Try it now — no login, no ads, no data collection. Just open and use.
+
 ## Features
 
 - **JSON Formatter** — Format, minify, and validate JSON with customizable indentation (2 or 4 spaces)
