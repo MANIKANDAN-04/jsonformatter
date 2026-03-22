@@ -243,14 +243,16 @@ export const JsonCompare: React.FC = () => {
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-          <button className="btn btn-primary" onClick={handleCompare}>
-            🔍 Compare
-          </button>
           <button className="btn btn-secondary" onClick={handleFormatBoth}>
             ✨ Format Both
           </button>
           <button className="btn btn-secondary" onClick={handleSwap}>
             ⇄ Swap
+          </button>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+          <button className="btn btn-primary" onClick={handleCompare} style={{ padding: '8px 28px', fontSize: 15 }}>
+            🔍 Compare
           </button>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
